@@ -98,9 +98,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(import.meta.env.VITE_SERVICE_ID)
-    console.log(import.meta.env.VITE_template_id)
-    console.log(import.meta.env.VITE_public_key)
     emailjs
       .sendForm(
         
