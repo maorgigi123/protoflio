@@ -35,3 +35,27 @@ h1,h2,p,ul,li,button {
     -o-user-select: text;
     user-select: text;
 }
+
+.container {
+    scroll-snap-align: center;
+	max-width: 1400px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+} 
+
+.section{
+	padding-top: 50px;
+   scroll-snap-align: center;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}

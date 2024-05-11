@@ -98,6 +98,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(!(ref.current.name.value.length > 0) || !(ref.current.email.value.length > 0) || !(ref.current.message.value.length > 0))
+    {
+      alert('cant send email with empty value')
+      return
+    }
     emailjs
       .sendForm(
         
@@ -123,9 +128,10 @@ const Contact = () => {
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
             <Title>Contact Us</Title>
-            <Input placeholder="Name" name="name" />
-            <Input placeholder="Email" name="email" />
+            <Input placeholder="Name" name="name" required/>
+            <Input placeholder="Email" name="email" required/>
             <TextArea
+              required
               placeholder="Write your message"
               name="message"
               rows={10}

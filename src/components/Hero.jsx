@@ -85,6 +85,9 @@ const Button = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  &:hover{
+    background-color: #e42898;
+  }
 `;
 
 const Right = styled.div`
