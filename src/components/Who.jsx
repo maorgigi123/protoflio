@@ -214,8 +214,8 @@ const Who = () => {
         </Left>
         <Right>
           <Img 
-            src ="../public\img\moon.png"
-            data-src="../public\img\moon.png" 
+            src ="/img/moon.png"
+            data-src="/img/moon.png" 
             alt="Profile picture"/>
         </Right>
       </Container>

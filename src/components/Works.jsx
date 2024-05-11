@@ -7,12 +7,28 @@ const Section = styled.div`
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
+  text-align: center;
 `;
+
+const Container = styled.div `
+  width: 1400px;
+  background-color: red;
+
+  @media only screen and (max-width: 1450px) {
+    width: 80%;
+  }
+`
+
 
 
 const Works = () => {
   return (
-    <Section>Works</Section>
+    <Section>
+      <Container>
+        {/* do here projects and images in grid layout */}
+      <h1>hello</h1>
+      </Container>
+    </Section>
   )
 }
 
