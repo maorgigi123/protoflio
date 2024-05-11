@@ -42,8 +42,8 @@
 .work__img-wrapper:hover::after {
 	background-color:rgba(79, 70, 229,0.3);
 }
-.work__project:not(:last-child) {
-	margin-bottom: 5rem;
+.work__project {
+	padding-bottom: 5rem;
 }
 
 
@@ -230,7 +230,6 @@
 	.work__title {
 		font-size: 3rem;
 	}
-
 	.work__description {
 		font-size: 1.125rem;
 		margin: 2rem auto;
@@ -247,7 +246,7 @@
 		font-size: 1.125rem;
 	}
 	.work__container {
-		width: 70%;
+		width: 90%;
 		margin:0 auto;
 	}
 

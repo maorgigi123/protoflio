@@ -136,10 +136,11 @@ const Subtitle = styled.h2`
 
 const ContainerAboutList = styled.div`
  display: flex;
- gap: 40px;
+ gap:40px;
  max-width: 100%;
  @media only screen and (max-width: 1450px) {
    margin-left: 50px;
+   gap:0px;
   }
  
 `;
@@ -152,6 +153,8 @@ const AboutUl = styled.ul`
 	padding-left: 1em;
 	flex: 1;
   margin-left: 10px;
+
+
 `;
 const AboutList = styled.li`
 font-size: 1.5rem;
