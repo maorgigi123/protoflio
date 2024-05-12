@@ -12,14 +12,17 @@ const Container = styled.div `
   overflow-y: auto;
   scrollbar-width: none;
   color:white;
-  background: url('./public/img/bg.jpeg');
+  background: url('./img/bg.jpeg');
   &::-webkit-scrollbar{
     display: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    scroll-snap-type:none;
   }
 `
 
 function App() {
-
   return (
     <Container>
       <Hero/>
@@ -27,7 +30,9 @@ function App() {
       <Works/>
       <Contact/>
     </Container>
+
   )
+  
 }
 
 export default App

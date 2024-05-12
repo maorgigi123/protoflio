@@ -16,6 +16,7 @@
     "@types/three": "^0.164.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.6.0",
     "react-simple-maps": "^3.0.0",
     "styled-components": "^6.1.11",
     "three": "^0.164.1"

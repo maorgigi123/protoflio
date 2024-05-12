@@ -208,11 +208,11 @@ const Who = () => {
               <AboutList >ReactJS</AboutList>
               <AboutList>Express</AboutList>
               <AboutList>Unity</AboutList>
-              <AboutList>Sql</AboutList>
+              <AboutList>MongoDB</AboutList>
             </AboutUl>
             <AboutUl>
               <AboutList >c#</AboutList>
-              <AboutList>MongoDB</AboutList>
+              <AboutList>Sql</AboutList>
               <AboutList>php</AboutList>
               <AboutList>Python</AboutList>
             </AboutUl>
@@ -222,8 +222,8 @@ const Who = () => {
         </Left>
         <Right>
           <Img 
-            src ="/img/moon.png"
-            data-src="/img/moon.png" 
+            src ="/img/moon.avif"
+            data-src="/img/moon.avif" 
             alt="Profile picture"/>
         </Right>
       </Container>

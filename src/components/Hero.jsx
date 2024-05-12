@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Navbar from './Navbar'
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 const Section = styled.div`
   overflow: hidden;
   height: 100vh;
@@ -170,7 +171,7 @@ const Hero = () => {
               </Sphere>
             </Suspense>
           </Canvas>
-          <Img draggable="false" src='./public/img/moon.png'/>
+          <Img draggable="false" src='./img/moon.avif'/>
         </Right>
       </Container>
     </Section>

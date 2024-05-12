@@ -88,7 +88,7 @@ const Button = styled.button`
 
 const Hamburger = styled.span`
   position: absolute;
-	display: none;
+  display: none;
 	width: 35px;
 	background-color: #e42898;
 	height: 7px;
@@ -116,7 +116,9 @@ const Hamburger_div = styled.div`
 	height: 35px;
 	width: 35px;
 
-
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
   &:hover{
     ${Hamburger}:nth-child(1)  {
       top: 12px;
@@ -231,7 +233,7 @@ const Navbar = () => {
     <Section>
       <Container>
         <Links>
-          <Logo src="./img/logo.png" />
+          <Logo src="./img/logo.avif" />
           <List>
             <ListItem onClick ={() => HandleClickWorks('Home')}>Home</ListItem>
             <ListItem onClick ={() => HandleClickWorks('about')}>About</ListItem>
@@ -241,7 +243,7 @@ const Navbar = () => {
         </Links>
         <Icons>
           {/* Changed the image due to copyright problems */}
-          <Hamburger_div onClick={handleHamburger}>
+          <Hamburger_div id='hamburger'onClick={handleHamburger}>
             <Hamburger></Hamburger>
             <Hamburger></Hamburger>
             <Hamburger></Hamburger>
@@ -252,7 +254,7 @@ const Navbar = () => {
 
       <Mobile_Container id ='mobileNavBar'>
          <Mobile_Links>
-          <Mobile_Logo src="./img/logo.png" />
+          <Mobile_Logo src="./img/logo.avif" />
           <Mobile_List>
             <Mobile_ListItem onClick ={() => HandleClickWorksMobile('Home')}>Home</Mobile_ListItem>
             <Mobile_ListItem onClick ={() => HandleClickWorksMobile('about')}>About</Mobile_ListItem>
