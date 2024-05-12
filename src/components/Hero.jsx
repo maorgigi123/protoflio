@@ -139,7 +139,7 @@ const Hero = () => {
   
 
   return (
-    <Section>
+    <Section id='Home'>
       <Navbar/>
       <Container>
         <Left>
@@ -151,7 +151,7 @@ const Hero = () => {
           <Desc>
               We enjoy creating websites and games at the highest level.
           </Desc>
-          <Button>Learn More</Button>
+          <Button onClick = {() => {document.getElementById('about').scrollIntoView()}}>Learn More</Button>
         </Left>
         <Right>
         <Canvas>

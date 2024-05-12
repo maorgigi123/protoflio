@@ -20,7 +20,7 @@ html {
 	tab-size: 4; /* 3 */
 }
 
-* :not(h1,h2,p,ul,li) {
+* :not(h1,h2,h3,p,ul,li,button) {
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
@@ -28,14 +28,13 @@ html {
   user-select: none;
 }
 
-h1,h2,p,ul,li,button {
+h1,h2,h3,p,ul,li,button {
   -webkit-user-select: text;
     -khtml-user-select: text;
     -moz-user-select: text;
     -o-user-select: text;
     user-select: text;
 }
-
 .container {
     scroll-snap-align: center;
 	max-width: 1400px;

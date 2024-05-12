@@ -98,6 +98,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setSuccess(false)
     if(!(ref.current.name.value.length > 0) || !(ref.current.email.value.length > 0) || !(ref.current.message.value.length > 0))
     {
       alert('cant send email with empty value')
@@ -113,6 +114,9 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          ref.current.name.value = '';
+          ref.current.email.value = '';
+          ref.current.message.value = '';
           console.log(result.text);
           setSuccess(true);
         },
@@ -123,7 +127,7 @@ const Contact = () => {
       );
   };
   return (
-    <Section>
+    <Section id='contact'>
       <Container>
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>

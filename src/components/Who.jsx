@@ -185,7 +185,7 @@ const Button = styled.button`
 
 const Who = () => {
   return (
-    <Section>
+    <Section id ='about'>
       <Container>
         <Left>
         <Title>About</Title>
@@ -202,16 +202,19 @@ const Who = () => {
               <AboutList>JavaScript</AboutList>
               <AboutList>CSS</AboutList>
               <AboutList>HTML</AboutList>
+              <AboutList>Rest Api</AboutList>
             </AboutUl>
             <AboutUl>
               <AboutList >ReactJS</AboutList>
               <AboutList>Express</AboutList>
               <AboutList>Unity</AboutList>
+              <AboutList>Sql</AboutList>
             </AboutUl>
             <AboutUl>
               <AboutList >c#</AboutList>
               <AboutList>MongoDB</AboutList>
               <AboutList>php</AboutList>
+              <AboutList>Python</AboutList>
             </AboutUl>
           </ContainerAboutList>
           <BigLineAnimated src='./public/img/line.png'/>

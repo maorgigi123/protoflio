@@ -1,107 +1,110 @@
 import React from 'react'
 
 import './styled/Works.css'
+
+const HandleReadMore = () => {
+  alert('will be soon....')
+}
 const Works = () => {
   return (
-    <section class="work container section">
+    <section class="work container section" id='works'>
       <h1 class="work__title">Projects</h1>
-        <p class="work__description">Mollit pariatur tempor nisi dolor non consequat magna cupidatat reprehenderit. Aliquip excepteur ullamco aliquip magna est et commodo deserunt ipsum.</p>
 
     <div class="work__container">
-            <h3 class="work__project-title">Wax Motif</h3>
+            <h3 class="work__project-title">Pirate King</h3>
             <div class="work__img-wrapper work__image1">
               <img
-              class="lazy loading"
-              src="https://fakeimg.pl/900x900"
-              data-src="https://fakeimg.pl/900x900" 
-              alt="[YOUR PROJECT IMAGE]"/>
+              class="lazy loading img"
+              src="./img/projects/PiratesKing.PNG"
+              data-src="./img/projects/PiratesKing.PNG" 
+              alt="Pirate King Image"/>
             </div>
             <div class="work__project work__content1">
-              <h3 class="work__project-subtitle">Wax Motif</h3>
-              <p class="work__project-description1">Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim pariatur deserunt do ad exercitation.</p>
-              <p class="work__project-description2">Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum commodo. Do esse excepteur cillum deserunt duis incididunt. Eu tempor ullamco aliqua consectetur incididunt anim dolor sunt laboris adipisicing cupidatat sint.</p>
-              <a class="btn work__project-btn" href="">Website</a>
+              <h3 class="work__project-subtitle">Pirate King</h3>
+              <p class="work__project-description1">Online game I made both the server and the game.</p>
+              <p class="work__project-description2">In the game you have different types of players you can upgrade the players to get stronger and progress in the story, you can add friends to fight against them, add the captain of your friends to help you win the game of the story.</p>
+              <a class="work__project-btn" onClick={HandleReadMore}>+ Read more</a>
               
             </div>  
 
 
-            <h3 class="work__project-title">Draze Force</h3>
+            <h3 class="work__project-title">Ball Slice</h3>
           <div class="work__img-wrapper work__image2">
             <img
-             class="lazy loading"
-             src="https://fakeimg.pl/900x900"
-             data-src="https://fakeimg.pl/900x900" 
-             alt="[YOUR PROJECT IMAGE]"/>
+             class="lazy loading img"
+             src="./img/projects/BallSlice.JPG"
+             data-src="./img/projects/BallSlice.JPG" 
+             alt="Ball Slice Image"/>
           </div>
           <div class="work__project work__content2">
-            <h3 class="work__project-subtitle">Draze Force</h3>
-            <p class="work__project-description1">Sunt sint labore officia irure. Dolore pariatur nisi deserunt sunt exercitation excepteur do reprehenderit fugiat Lorem sint ut.</p>
-            <p class="work__project-description2">Mollit ipsum mollit magna occaecat eiusmod sint fugiat est non adipisicing esse fugiat deserunt minim. Enim occaecat velit eu non amet nostrud officia duis.</p>
-            <a class="btn work__project-btn" href="">Website</a>
+            <h3 class="work__project-subtitle">Ball Slice</h3>
+            <p class="work__project-description1">ball slice is an infinity game for android and ios that gets harder and harder all 5 levels have a boss.</p>
+            <p class="work__project-description2">you need to slice the balls before they get red and you can upgrade your damage buy different knives or balls and The more stages it goes through the more backgrounds will open up.</p>
+            <a class="btn work__project-btn" onClick={HandleReadMore}>+ Read more</a>
            
           </div>  
 
-          <h3 class="work__project-title">Artren</h3>
+          <h3 class="work__project-title">Fourm</h3>
           <div class="work__img-wrapper work__image3">
             <img 
-            class="lazy loading"
-            src="https://fakeimg.pl/900x900"
-           data-src="https://fakeimg.pl/900x900" 
-           alt="[YOUR PROJECT IMAGE]"/>
+            class="lazy loading img"
+            src="./img/projects/Fourm.jpg"
+           data-src="./img/projects/Fourm.jpg" 
+           alt="Fourm Image"/>
           </div>
           <div class="work__project work__content3">
-            <h3 class="work__project-subtitle">Artren</h3>
-            <p class="work__project-description1">Aliquip eu ad est reprehenderit veniam irure exercitation in velit enim ipsum.</p>
-            <p class="work__project-description2">Elit est amet quis incididunt officia velit eiusmod do amet. Sint non qui nulla sit ex cillum non pariatur velit proident ut aliqua fugiat incididunt id minim.</p>
-            <a class="btn work__project-btn" href="">Website</a>
+            <h3 class="work__project-subtitle">Fourm</h3>
+            <p class="work__project-description1">ecure forum You can view people's posts to give them likes and also comments You can post posts You can change a banner photo and a profile picture to another picture and even to a sliding picture!.</p>
+            <p class="work__project-description2">Everything is saved on the server, all the posts and all the pictures on the server's computer.</p>
+            <a class="btn work__project-btn" onClick={HandleReadMore}>+ Read more</a>
            
           </div>  
 
-          <h3 class="work__project-title">Platform Pro</h3>
+          <h3 class="work__project-title">Army Project</h3>
           <div class="work__img-wrapper work__image4">
             <img 
-            class="lazy loading"
-            src="https://fakeimg.pl/900x900"
-           data-src="https://fakeimg.pl/900x900" 
-           alt="[YOUR PROJECT IMAGE]"/>
+            class="lazy loading img"
+            src="./img/projects/army.jpg"
+           data-src="./img/projects/army.jpg" 
+           alt="Army Project Image"/>
           </div>
           <div class="work__project work__content4">
-            <h3 class="work__project-subtitle">Platform Pro</h3>
-            <p class="work__project-description1">Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim pariatur deserunt do ad exercitation.</p>
-            <p class="work__project-description2">Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum commodo. Do esse excepteur cillum deserunt duis incididunt. Eu tempor ullamco aliqua consectetur incididunt anim dolor sunt laboris adipisicing cupidatat sint.</p>
-            <a class="btn work__project-btn" href="">Website</a>
+            <h3 class="work__project-subtitle">Army Project</h3>
+            <p class="work__project-description1">I served in the army in a clinic and they would put us outside to check on soldiers during the Corona period, so I made an app where you write down what appointment you have, then you wait outside and receive a text message that your appointment is coming.</p>
+            <p class="work__project-description2">And there is another app for the doctor that he sees everyone who is waiting and has the next button in line and whoever is next receives a text message.</p>
+            <a class="btn work__project-btn" onClick={HandleReadMore}>+ Read more</a>
             
           </div>         
 
-          <h3 class="work__project-title">Wallys Vegan</h3>
+          <h3 class="work__project-title">DBZ Online</h3>
           <div class="work__img-wrapper work__image5">
             <img
-             class="lazy loading"
-             src="https://fakeimg.pl/900x900"
-             data-src="https://fakeimg.pl/900x900" 
-             alt="[YOUR PROJECT IMAGE]"/>
+             class="lazy loading img"
+             src="./img/projects/DBZ.png"
+             data-src="./img/projects/DBZ.png" 
+             alt="DBZ Online Image"/>
           </div>
           <div class="work__project work__content5">
-            <h3 class="work__project-subtitle">Wallys Vegan</h3>
-            <p class="work__project-description1">Sunt sint labore officia irure. Dolore pariatur nisi deserunt sunt exercitation excepteur do reprehenderit fugiat Lorem sint ut.</p>
-            <p class="work__project-description2">Mollit ipsum mollit magna occaecat eiusmod sint fugiat est non adipisicing esse fugiat deserunt minim. Enim occaecat velit eu non amet nostrud officia duis.</p>
-            <a class="btn work__project-btn" href="">Website</a>
+            <h3 class="work__project-subtitle">DBZ Online</h3>
+            <p class="work__project-description1">the first multiplayer game I made in unity network for PC, android, and ios games with a lot of options.</p>
+            <p class="work__project-description2">I made for this game website that you can register and login into the website and see all your items and players and your clans on the website.</p>
+            <a class="btn work__project-btn" onClick={HandleReadMore}>+ Read more</a>
            
           </div>  
 
-          <h3 class="work__project-title">Old Portfolio</h3>
+          <h3 class="work__project-title">General Image Detection</h3>
           <div class="work__img-wrapper work__image6">
             <img 
-            class="lazy loading"
-            src="https://fakeimg.pl/900x900"
-           data-src="https://fakeimg.pl/900x900" 
-           alt="[YOUR PROJECT IMAGE]"/>
+            class="lazy loading img"
+            src="./img/projects/GeneralImageDetection.jpeg"
+           data-src="./img/projects/GeneralImageDetection.jpeg" 
+           alt="General Image Detection Image"/>
           </div>
           <div class="work__project work__content6">
-            <h3 class="work__project-subtitle">Old Portfolio</h3>
-            <p class="work__project-description1">Aliquip eu ad est reprehenderit veniam irure exercitation in velit enim ipsum.</p>
-            <p class="work__project-description2">Elit est amet quis incididunt officia velit eiusmod do amet. Sint non qui nulla sit ex cillum non pariatur velit proident ut aliqua fugiat incididunt id minim.</p>
-            <a class="btn work__project-btn" href="">Website</a>
+            <h3 class="work__project-subtitle">General Image Detection</h3>
+            <p class="work__project-description1">Detects a variety of common objects and the location and generates regions of an image that may contain that object.</p>
+            <p class="work__project-description2">You can sort and search the results by percentage or by name.</p>
+            <a class="btn work__project-btn" onClick={HandleReadMore}>+ Read more</a>
            
           </div> 
 
