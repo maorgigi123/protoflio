@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 const Section = styled.div`
+background: transparent;
+backdrop-filter:blur(3px);
 position: fixed;
 z-index: 20;
 border-radius: 0px 0px 10px 10px;
