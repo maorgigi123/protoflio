@@ -95,9 +95,13 @@ const Right = styled.div`
 const Contact = () => {
   const ref = useRef();
   const [success, setSuccess] = useState(null);
+  const [load,setLoad] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(load)
+      return
+    setLoad(true)
     setSuccess(false)
     if(!(ref.current.name.value.length > 0) || !(ref.current.email.value.length > 0) || !(ref.current.message.value.length > 0))
     {
@@ -119,10 +123,12 @@ const Contact = () => {
           ref.current.message.value = '';
           console.log(result.text);
           setSuccess(true);
+          setLoad(false)
         },
         (error) => {
           console.log(error.text);
           setSuccess(false);
+          setLoad(false)
         }
       );
   };

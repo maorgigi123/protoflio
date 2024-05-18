@@ -145,7 +145,7 @@ const Hero = () => {
         <Left>
           <Title>Think. Make. Solve.</Title>
           <WhatWeDo>
-            <Line src='./public/img/line.png'/>
+            <Line src='./img/line.avif'/>
             <Subtitle>What We Do</Subtitle>
           </WhatWeDo>
           <Desc>

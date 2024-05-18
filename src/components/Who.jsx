@@ -192,9 +192,9 @@ const Who = () => {
           <Desc>Hello there! I'm Maor, a <strong>Fullstack & Game Developer</strong> . I wake up in the morning, grab a cup of timmies coffee, open up my laptop and build things that live on the web all day, everyday.</Desc>
           <Desc>People who know me say I'm obsessed, that's fair, I am very driven and love learning new things.</Desc>
           <Desc>I recently created a Mobile Game called <a>Ball Slice </a> to Google Store and App Store</Desc>
-          <BigLine src='./public/img/line.avif'/>
+          <BigLine src='./img/line.avif'/>
           <WhatWeDo>
-            <Line src='./public/img/line.avif'/>
+            <Line src='./img/line.avif'/>
             <Subtitle>Technologies</Subtitle>
           </WhatWeDo>
           <ContainerAboutList>
@@ -217,7 +217,7 @@ const Who = () => {
               <AboutList>Python</AboutList>
             </AboutUl>
           </ContainerAboutList>
-          <BigLineAnimated src='./public/img/line.avif'/>
+          <BigLineAnimated src='./img/line.avif'/>
           <Button><a href='./Resume.docx'>Download Cv</a></Button>
         </Left>
         <Right>
