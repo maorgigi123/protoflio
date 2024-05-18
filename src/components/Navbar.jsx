@@ -149,10 +149,9 @@ const Hamburger_div = styled.div`
 const Mobile_Container = styled.div`
   display: none;
   background-image:url('./img/bg.avif');
-  background-color: red;
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   bottom: 0;
   right: 0;
