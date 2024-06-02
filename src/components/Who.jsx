@@ -218,7 +218,7 @@ const Who = () => {
             </AboutUl>
           </ContainerAboutList>
           <BigLineAnimated src='./img/line.avif'/>
-          <Button><a href='./Resume.docx'>Download Cv</a></Button>
+          <Button><a href='./Resume.docx' ownload="maor_gigi_cv">Download Cv</a></Button>
         </Left>
         <Right>
           <Img 

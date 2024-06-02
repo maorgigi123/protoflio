@@ -125,17 +125,18 @@
 		place-items:center;
 		grid-template-areas: 
 		'image1 content1'
-		'content2 image2'
-		'image3 content3'
 		'content4 image4'
+		'image2 content2'
+		'content3 image3'
 		'image5 content5'
-		'content6 image6';
+		'content6 image6'
+		'image7 content7'
 	}
 
 	.work_image1 {
 		grid-area: image1;
 	}
-	.work_image2 {
+	.work__image2 {
 		grid-area: image2;
 	}
 	.work_image3 {
@@ -149,6 +150,9 @@
 	}
 	.work_image6 {
 		grid-area: image6;
+	}
+	.work_image7 {
+		grid-area: image7;
 	}
 
 	.work__content1 {
@@ -174,6 +178,9 @@
 		grid-area: content6;
 	}
 
+	.work__content7 {
+		grid-area: content7;
+	}
 
 
 	.work__project {
